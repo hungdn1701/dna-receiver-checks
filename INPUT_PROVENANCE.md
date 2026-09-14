@@ -47,6 +47,7 @@ distance of the last 43,200 bits from the supplied source. The inverse
 permutation is defined by `codeword[permutation[i]] = stored[i]`.
 
 The library provides the parsing, mapping and syndrome primitives for such
-a comparison. This initial release does not include a native-data acquisition
-or case-study runner. The synthetic tests demonstrate the interfaces and
-must not be presented as reproducing that native table.
+a comparison. Version 0.2.0 adds an offline case-study command and
+[reproduction instructions](NATIVE_REPRODUCTION.md), including expected output.
+The command does not download inputs. The synthetic tests demonstrate the
+interfaces and must not be presented as reproducing that native table.

@@ -13,11 +13,10 @@ needed to run the synthetic tests. From the repository root:
 python -B -m unittest discover -s tests -v
 ```
 
-The released source and seven test modules are byte-identical to the
-qualified package, which passed 105 tests with no failures, errors or skips.
-No new runtime test was performed solely for release packaging. A successful
-run prints `OK`. Support on other interpreter versions and platforms has
-not been established.
+The released Python files are byte-identical to the qualified package,
+which passed 115 tests across eight test modules with no failures, errors
+or skips. A successful run prints `OK`. Support on other interpreter versions
+and platforms has not been established.
 
 Read the [user guide](USER_GUIDE.md) for three worked examples, API contracts,
 expected outcomes and resource limits.
@@ -48,9 +47,26 @@ The [input provenance](INPUT_PROVENANCE.md) identifies those external inputs
 by repository revision, paths and checksums. The synthetic test suite is
 self-contained and is not a reproduction of the native case-study table.
 
+## Reproducing the native bit-order table
+
+Version 0.2.0 includes an offline command for the five-row comparison:
+
+```sh
+python -B reproduce_native_table.py --assets native-inputs
+```
+
+Follow [NATIVE_REPRODUCTION.md](NATIVE_REPRODUCTION.md) to obtain the five
+separate inputs, check their identity and interpret the expected output.
+The command computes the rows from the inputs before checking them against
+the recorded values. It does not download data or execute upstream programs.
+
+[SOURCE_PROVENANCE.md](SOURCE_PROVENANCE.md) identifies the twelve upstream
+repository files inspected for the article's scoring and stage-policy
+observations, with pinned supporting line ranges and a machine-readable inventory.
+
 ## Version, license and support
 
-The initial release is `v0.1.0`. See [CHANGELOG.md](CHANGELOG.md) and
+This release is `v0.2.0`. See [CHANGELOG.md](CHANGELOG.md) and
 [CITATION.cff](CITATION.cff). Interfaces may change before version 1.0.
 
 The original software is distributed under the [MIT License](LICENSE).

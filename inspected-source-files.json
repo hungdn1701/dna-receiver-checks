@@ -1,0 +1,79 @@
+{
+    "repository":  "https://github.com/dna-storage-lab/Bootstrap-readout-using-hidden-references",
+    "revision":  "ddf71a0e6db8c5faf328f7a990d1020aba9cbc0b",
+    "scope":  "Twelve inspected repository files; later snapshot, not established as the publication-time archive.",
+    "files":  [
+                  {
+                      "path":  "LICENSE",
+                      "bytes":  1072,
+                      "sha256":  "684ba3de1227f0b0644ac789efcefb35a5132695417e4093b38ed610ee50c9d0",
+                      "git_blob_sha1":  "55f9432b044413231f02149fe3ebd84a7a9080a5"
+                  },
+                  {
+                      "path":  "README.md",
+                      "bytes":  11023,
+                      "sha256":  "f535839e972d9051934355c27a69cfbebc3960160e5d21220dbcac6f0e860694",
+                      "git_blob_sha1":  "90cc63ebc985e5b6faa2c716dd89b76dc5b29715"
+                  },
+                  {
+                      "path":  "Recovery_code/Figure5/bootstrap_recovery_TypeI+II+IIIReads_FBA/R0.67/src/decode_feedback_align.cpp",
+                      "bytes":  5227,
+                      "sha256":  "19b92c170470067bb1961cda2d9c6d077e672a7c0c9f97146e40dce76e6fcee5",
+                      "git_blob_sha1":  "0d70cb9de75c5b6126e18f06e3dce8b0da4572e9"
+                  },
+                  {
+                      "path":  "Recovery_code/Figure5/bootstrap_recovery_TypeI+II+IIIReads_FBA/R0.67/src/CalBitError.c",
+                      "bytes":  2942,
+                      "sha256":  "502db554411dccd4ee2fa3e4914760f9eb97e1445e4c58a96285ee78e828e26e",
+                      "git_blob_sha1":  "e3658ec9af41765521f8ca6635f9e3e26d355839"
+                  },
+                  {
+                      "path":  "Recovery_code/Figure5/bootstrap_recovery_TypeI+II+IIIReads_FBA/R0.67/build.sh",
+                      "bytes":  1317,
+                      "sha256":  "23dcd0f415f000652dbe2480f6893e8bbd941be9f4e3892cc0a1237073bbfe0a",
+                      "git_blob_sha1":  "22934d58f1d60d4ea4fb258a7241b5b6cc1ddf2d"
+                  },
+                  {
+                      "path":  "Recovery_code/Figure5/bootstrap_recovery_TypeI+II+IIIReads_FBA/R0.67/recover.sh",
+                      "bytes":  6652,
+                      "sha256":  "c7771b9d64318492bf77a379d53cc3268c7676c6b2ac3db0d27b6ffff6e3b276",
+                      "git_blob_sha1":  "86cde40123c589116797b4e1b6b910d209870ef7"
+                  },
+                  {
+                      "path":  "Recovery_code/Figure5/bootstrap_recovery_TypeI+II+IIIReads_FBA/R0.67/R0.67_bootstrap_recovery_step1.sh",
+                      "bytes":  4861,
+                      "sha256":  "d6a4976633ee8cef68183d07bdc2bf69b22cadbad42033deb1a0f91ef2bbbbf0",
+                      "git_blob_sha1":  "43b59aa06bc2bb162c96a1939bd71db936a94ba4"
+                  },
+                  {
+                      "path":  "Recovery_code/Figure5/bootstrap_recovery_TypeI+II+IIIReads_FBA/R0.67/R0.67_bootstrap_recovery_step2.sh",
+                      "bytes":  3019,
+                      "sha256":  "a44832c5466d2c5d26a4c0cb8979a151cf39d085adc9206fea387ff09aee053a",
+                      "git_blob_sha1":  "eac85a9d1110d402d1b09b8cc0f1d5e5f8086a7d"
+                  },
+                  {
+                      "path":  "Recovery_code/Figure5/bootstrap_recovery_TypeI+II+IIIReads_FBA/R0.67/R0.67_bootstrap_recovery_step3.sh",
+                      "bytes":  3017,
+                      "sha256":  "ce0c7e0d53cbcb282a71c1cc1937710f55e9553f2c0e2af92ceb15c2601999ec",
+                      "git_blob_sha1":  "2a324607ee59bcdccc73edbcb9cbb49d0a798217"
+                  },
+                  {
+                      "path":  "Recovery_code/Figure5/bootstrap_recovery_TypeI+II+IIIReads_FBA/R0.67/src/post_dec_hamming_dis.c",
+                      "bytes":  1810,
+                      "sha256":  "97fb680b8c207946911d63668770a9630abc923d9af6bd8ea9a563e34e10568a",
+                      "git_blob_sha1":  "95a26518ea93a238aac96274c38d47fd2bb6793e"
+                  },
+                  {
+                      "path":  "Recovery_code/Figure5/bootstrap_recovery_TypeI+II+IIIReads_FBA/R0.67/src/Seq_chunker.c",
+                      "bytes":  3673,
+                      "sha256":  "5e98cc6a66d7518b753e6c7f15f5590c64df841ec920e322ee927a240cb2bb7e",
+                      "git_blob_sha1":  "09af94992f6eb9e66f4b3b89fb1eb6803c7badf4"
+                  },
+                  {
+                      "path":  "Recovery_code/Figure5/bootstrap_recovery_TypeI+II+IIIReads_FBA/R0.67/src/SubsampleFastqRandom.c",
+                      "bytes":  2230,
+                      "sha256":  "63585e1ff2bc640e78490520fcd22a4734928abd1ce8e4474e8217c8fa848ddc",
+                      "git_blob_sha1":  "e6568a5c49fa1f525c95b0a8a206bd348b7a98ce"
+                  }
+              ]
+}

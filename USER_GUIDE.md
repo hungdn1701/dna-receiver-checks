@@ -7,18 +7,19 @@ It is not a sequencing pipeline or a reproduction of an upstream executable.
 
 ## Requirements and running the examples
 
-The reference environment is Python 3.11.9. The six modules use only the Python
-standard library. No package installation, network access or external dataset
+The reference environment is Python 3.11.9. The six library modules and the
+native-table command use only the Python standard library.
+No package installation, network access or external dataset
 is needed for the examples below. Run commands from the directory containing
 the six `.py` modules and `tests/`. Use `python3` instead of `python` if that is
 the name of your Python 3.11 interpreter.
 
 ```sh
-python -B -m unittest discover -s tests -p 'test_a00*.py' -v
+python -B -m unittest discover -s tests -v
 ```
 
-The pattern selects the seven receiver test modules, including when the
-development repository contains other intake tests. A successful run ends with `OK`;
+The full suite runs 115 tests across eight test modules, including ten
+synthetic checks of the native-table command. A successful run ends with `OK`;
 the test names identify each checked behavior. Failures and errors are not
 successful decoding outcomes. Platform support beyond the recorded test
 environment has not been established.
@@ -91,8 +92,10 @@ it does not establish which message was encoded.
 The article's native tuple uses a supplied parity-check matrix, serialized
 codeword, permutation, source bits and watermark. Those third-party input
 bodies are not included in these synthetic examples. Reproducing that table
-requires the permitted, pinned inputs and the separate native qualification
-procedure. The small fixtures above do not reproduce the native table.
+requires the permitted, pinned inputs and the separate
+[native reproduction procedure](NATIVE_REPRODUCTION.md). Version 0.2.0
+provides the offline command and expected output for that comparison.
+The small fixtures above do not reproduce the native table.
 
 ## Example 3: observation identity and soft evidence
 
@@ -175,8 +178,12 @@ independent biological replicates. No external adoption is claimed.
 
 ## Distribution and input access
 
-Version 0.1.0 is distributed under the MIT License. The maintainer is
+Version 0.2.0 is distributed under the MIT License. The maintainer is
 Hung N. Dang (hungdn@ptit.edu.vn). See README.md for version information,
 THIRD_PARTY_NOTICES.md for attribution and INPUT_PROVENANCE.md for the
 external configuration tuple. The examples need only the included synthetic
 fixtures; external native-input bodies are not redistributed.
+
+The separate [source-inspection note](SOURCE_PROVENANCE.md) records pinned
+file and line references for the article's upstream scoring and stage-policy
+observations. It distinguishes that later snapshot from the publication archive.
